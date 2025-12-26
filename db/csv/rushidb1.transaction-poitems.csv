@@ -1,0 +1,2 @@
+node_key,parent_key_node_key,po_item_pos,product_guid_node_key,CURRENCY_code,gross_amount,net_amount,tax_amount
+poitems-9785176,purchaseorder-13948505,55,product-12426644,597,92248155.04,65513193.86,51980747.43

@@ -1,0 +1,2 @@
+ID,nameFirst,nameMiddle,nameLast,nameInitials,sex,language,phoneNumber,email,loginName,Currency_code,salaryAmount,accountNumber,bankid,bankname
+20633217-3ade-4e4d-b86a-bcef5fea71a3,nameFirst-20633217,nameMiddle-20633217,nameLast-20633217,nameInitials-20633217,F,7,gex ^(\\+91[- ]?)?[6-9]\\d{9}$,"x ^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$",ame-20633217,597,86817124.18,tNumber-20633217,20633217,bankname-20633217

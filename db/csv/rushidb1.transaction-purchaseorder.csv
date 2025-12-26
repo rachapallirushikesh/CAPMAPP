@@ -1,0 +1,2 @@
+node_key,po_id,partner_guid_node_key,lifecycle_status,overall_status,CURRENCY_code,gross_amount,net_amount,tax_amount
+purchaseorder-13948505,po_id-13948505,businesspartner-18677721,5,5,597,21557232.16,71712131.87,14233550.85

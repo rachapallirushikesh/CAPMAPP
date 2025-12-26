@@ -1,0 +1,2 @@
+node_key,product_id,type_code,category,description,supplier_guid_node_key,tax_tarif_code,measure_unit,weight_unit,weight_measure,currency_code,price,width,height,depth,dim_unit
+product-12426644,product_id-12426644,44,category-12426644,description-12426644,businesspartner-18677721,41,44,44,443.96,6644,9686127758770.01,552.36,629.58,0.39,44
