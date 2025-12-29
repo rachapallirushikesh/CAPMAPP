@@ -1,0 +1,65 @@
+### Get Service document
+
+http://localhost:4004/odata/v4/CatalogService
+
+### Metadata for Catalog service
+http://localhost:4004/odata/v4/CatalogService/$metadata
+
+### All employees data
+http://localhost:4004/odata/v4/CatalogService/employeesSet
+
+### Pagination - load data chunk by chunk
+http://localhost:4004/odata/v4/CatalogService/employeesSet?$top=2&$skip=2
+
+### Filtering data
+http://localhost:4004/odata/v4/CatalogService/employeesSet?$filter=ID eq 20633217-3ade-4e4d-b86a-bcef5fea71a3
+
+### Count No fo records
+http://localhost:4004/odata/v4/CatalogService/employeesSet/$count
+
+### Getting all assiciation data for single purchase order key
+http://localhost:4004/odata/v4/CatalogService/purchaseOrderSet/purchaseorder-13948505?$expand=items,partner_guid
+
+### POST - Creation of records
+POST http://localhost:4004/odata/v4/CatalogService/employeesSet
+Content-Type: application/json
+
+{
+  "nameFirst": "rushi",
+  "nameMiddle": "kesh",
+  "nameLast": "reddy",
+  "nameInitials": "RR",
+  "sex": "M",
+  "language": "E",
+  "phoneNumber": "9876543210",
+  "email": "rushi@gmail.com",
+  "loginName": "ame-20633217",
+  "Currency_code": "INR",
+  "salaryAmount": 20000,
+  "accountNumber": "tNumber-20613217",
+  "bankid": "20633217",
+  "bankname": "ICICI"
+}
+
+### Get to read single employee
+GET http://localhost:4004/odata/v4/CatalogService/employeesSet/20633217-3ade-4e4d-b86a-bcef5fea71a3
+
+### PATCH - Update data
+PATCH http://localhost:4004/odata/v4/CatalogService/employeesSet/20633217-3ade-4e4d-b86a-bcef5fea71a3
+Content-Type: application/json
+
+{
+    "salaryAmount": "1000"
+}
+
+### Delete data
+DELETE http://localhost:4004/odata/v4/CatalogService/employeesSet/20633217-3ade-4e4d-b86a-bcef5fea71a3
+
+### Unbount Actions testing
+POST http://localhost:4004/odata/v4/CatalogService/po_item_set/poitems-9785176/boost
+Content-Type: application/json
+
+{}
+
+### POs data fetching
+get http://localhost:4004/odata/v4/CatalogService/po_item_set/poitems-9785176

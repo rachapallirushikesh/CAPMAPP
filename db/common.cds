@@ -22,7 +22,7 @@ aspect amount: {
 //reusable data type
     type guid: String(32);
 
-    type phoneNumber: String(30)@assert.format : '^(\\+91[- ]?)?[6-9]\\d{9}$';
+    type phoneNumber: String(30)@assert.format : '^(\+91[- ]?)?[6-9]\d{9}$';
     type emailAddress: String(50)@assert.format: '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$';
     // aspect to hold address data. same as domain, dataelement, structures in SE11. Reusable.
     // INCLUDE structure
