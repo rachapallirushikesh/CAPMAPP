@@ -1,2 +1,11 @@
 node_key,product_id,type_code,category,description,supplier_guid_node_key,tax_tarif_code,measure_unit,weight_unit,weight_measure,currency_code,price,width,height,depth,dim_unit
-product-12426644,product_id-12426644,44,category-12426644,description-12426644,businesspartner-18677721,41,44,44,443.96,6644,9686127758770.01,552.36,629.58,0.39,44
+PRD01X9,P001,FG,Electronics,Laptop,BP01A1X9Q,18,EA,KG,1.8,INR,55000,32,2,22,CM
+PRD02Y8,P002,FG,Electronics,Mouse,BP02B2Y8W,18,EA,KG,0.2,INR,1200,6,4,10,CM
+PRD03Z7,P003,RM,Accessories,Keyboard,BP03C3Z7E,18,EA,KG,0.8,INR,2500,45,3,15,CM
+PRD04K6,P004,FG,Furniture,Chair,BP04D4K6R,18,EA,KG,12.5,INR,8500,60,120,60,CM
+PRD05M5,P005,FG,Electronics,Monitor,BP05E5M5T,18,EA,KG,4.2,INR,22000,62,36,5,CM
+PRD06N4,P006,RM,Cables,HDMI Cable,BP06F6N4Y,18,EA,KG,0.3,INR,600,15,2,8,CM
+PRD07P3,P007,FG,Networking,Router,BP07G7P3U,18,EA,KG,0.9,INR,3500,25,5,18,CM
+PRD08Q2,P008,FG,Electronics,Tablet,BP08H8Q2I,18,EA,KG,0.6,INR,28000,25,1,16,CM
+PRD09R1,P009,FG,Storage,SSD 1TB,BP09I9R1O,18,EA,KG,0.1,INR,9500,10,1,7,CM
+PRD10S8,P010,FG,Electronics,Printer,BP10J0S8L,18,EA,KG,6.5,INR,18000,40,30,35,CM

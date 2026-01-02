@@ -1,3 +1,11 @@
 code,locale,name,descr
-597,hu,name-8424349,descr-8424349
-597,pl,name-8424350,descr-8424350
+EN,en-US,English,English language (United States)
+ENGB,en-GB,English (UK),English language (United Kingdom)
+HI,hi-IN,Hindi,Hindi language (India)
+TE,te-IN,Telugu,Telugu language (India)
+TA,ta-IN,Tamil,Tamil language (India)
+KN,kn-IN,Kannada,Kannada language (India)
+ML,ml-IN,Malayalam,Malayalam language (India)
+FR,fr-FR,French,French language (France)
+DE,de-DE,German,German language (Germany)
+ES,es-ES,Spanish,Spanish language (Spain)

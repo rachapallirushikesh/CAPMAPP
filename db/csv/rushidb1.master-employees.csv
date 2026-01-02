@@ -1,2 +1,11 @@
-ID,nameFirst,nameMiddle,nameLast,nameInitials,sex,language,phoneNumber,email,loginName,Currency_code,salaryAmount,accountNumber,bankid,bankname
-20633217-3ade-4e4d-b86a-bcef5fea71a3,nameFirst-20633217,nameMiddle-20633217,nameLast-20633217,nameInitials-20633217,F,7,gex ^(\\+91[- ]?)?[6-9]\\d{9}$,"x ^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$",ame-20633217,597,86817124.18,tNumber-20633217,20633217,bankname-20633217
+nameFirst,nameMiddle,nameLast,nameInitials,sex,language,phoneNumber,email,loginName,CURRENCY_CODE,salaryAmount,accountNumber,bankid,bankname
+Rushikesh,,Reddy,RR,M,E,9000000011,rushi@corp.com,rrasapal,INR,60000,1111222233334444,SBIN0001,SBI
+Anita,Kumari,Sharma,AKS,F,E,9000000012,anita@corp.com,asharma,INR,55000,2222333344445555,HDFC0002,HDFC
+Vikram,,Singh,VS,M,E,9000000013,vikram@corp.com,vsingh,INR,70000,3333444455556666,ICIC0003,ICICI
+Sneha,,Patel,SP,F,E,9000000014,sneha@corp.com,spatel,INR,58000,4444555566667777,AXIS0004,AXIS
+Rahul,,Mehta,RM,M,E,9000000015,rahul@corp.com,rmehta,INR,65000,5555666677778888,PNB0005,PNB
+Neha,,Gupta,NG,F,E,9000000016,neha@corp.com,ngupta,INR,52000,6666777788889999,SBIN0006,SBI
+Amit,,Verma,AV,M,E,9000000017,amit@corp.com,averma,INR,62000,7777888899990000,HDFC0007,HDFC
+Pooja,,Nair,PN,F,E,9000000018,pooja@corp.com,pnair,INR,54000,8888999900001111,ICIC0008,ICICI
+Suresh,,Rao,SR,M,E,9000000019,suresh@corp.com,srao,INR,68000,9999000011112222,AXIS0009,AXIS
+Kiran,,Das,KD,M,E,9000000020,kiran@corp.com,kdas,INR,50000,0000111122223333,PNB0010,PNB

@@ -27,6 +27,7 @@ context master {
         latitude: Decimal;
         longitude: Decimal;
         businesspartner: Association to one businesspartner on businesspartner.address_guid = $self;
+        country: String(40);
     }
 
     entity product {

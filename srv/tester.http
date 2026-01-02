@@ -35,21 +35,21 @@ Content-Type: application/json
   "email": "rushi@gmail.com",
   "loginName": "ame-20633217",
   "Currency_code": "INR",
-  "salaryAmount": 20000,
+  "salaryAmount": 2000000,
   "accountNumber": "tNumber-20613217",
   "bankid": "20633217",
   "bankname": "ICICI"
 }
 
 ### Get to read single employee
-GET http://localhost:4004/odata/v4/CatalogService/employeesSet/20633217-3ade-4e4d-b86a-bcef5fea71a3
+GET http://localhost:4004/odata/v4/CatalogService/employeesSet/10342be2-8611-4d95-8638-82adbf86b215
 
 ### PATCH - Update data
-PATCH http://localhost:4004/odata/v4/CatalogService/employeesSet/20633217-3ade-4e4d-b86a-bcef5fea71a3
+PATCH http://localhost:4004/odata/v4/CatalogService/employeesSet/10342be2-8611-4d95-8638-82adbf86b215
 Content-Type: application/json
 
 {
-    "salaryAmount": "1000"
+    "salaryAmount": "1000000"
 }
 
 ### Delete data
@@ -63,3 +63,9 @@ Content-Type: application/json
 
 ### POs data fetching
 get http://localhost:4004/odata/v4/CatalogService/po_item_set/poitems-9785176
+
+### Reading data from custom entity
+GET http://localhost:4004/odata/v4/MyService/ReadEmployeeSet
+
+### Converts Odata V4 to V2 when @cap-js-community/odata-v2-adapter was installed
+GET http://localhost:4004/odata/v2/MyService/ReadEmployeeSet

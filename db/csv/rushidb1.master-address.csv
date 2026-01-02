@@ -1,2 +1,11 @@
-node_key,city,postal_code,street,building,address_type,val_start_date,val_end_date,latitude,longitude
-address-13983890,city-13983890,13983890,street-13983890,building-13983890,address_type-13983890,2008-08-17,2022-09-21,4.29,73.86
+node_key,city,postal_code,street,building,address_type,val_start_date,val_end_date,latitude,longitude,country
+ADDR01X9,Hyderabad,500081,Madhapur Rd,Block A,OFFICE,2024-01-01,9999-12-31,17.44,78.39,India
+ADDR02Y8,Bangalore,560103,Whitefield Rd,Tower B,OFFICE,2024-01-01,9999-12-31,12.97,77.75,India
+ADDR03Z7,Chennai,600042,OMR Road,Plot 21,WAREHOUSE,2024-01-01,9999-12-31,12.91,80.22,India
+ADDR04K6,Pune,411057,Hinjewadi Rd,Building 5,OFFICE,2024-01-01,9999-12-31,18.59,73.73,India
+ADDR05M5,Delhi,110020,Okhla Phase 2,Shed 12,FACTORY,2024-01-01,9999-12-31,28.53,77.27,India
+ADDR06N4,Noida,201301,Sector 62,Plot 9,OFFICE,2024-01-01,9999-12-31,28.62,77.36,India
+ADDR07P3,Chennai,600096,Velachery Rd,Block D,OFFICE,2024-01-01,9999-12-31,12.98,80.23,India
+ADDR08Q2,Mumbai,400076,Powai Rd,Tower 3,OFFICE,2024-01-01,9999-12-31,19.11,72.90,India
+ADDR09R1,Ahmedabad,380015,SG Highway,Plot 14,OFFICE,2024-01-01,9999-12-31,23.03,72.51,India
+ADDR10S8,Kolkata,700091,Salt Lake,Block V,OFFICE,2024-01-01,9999-12-31,22.57,88.43,India

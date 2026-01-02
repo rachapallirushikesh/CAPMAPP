@@ -1,7 +1,13 @@
 module.exports = cds.service.impl(  
     async function(){
 
-        const {po_item_set} = this.entities;
+        const {po_item_set, employeesSet} = this.entities;
+
+        this.before(['CREATE','PATCH'],employeesSet,async function(req){
+            if (parseFloat(req.data.salaryAmount)>=1000000){
+                req.error(500,"Hey you are not allowed to enter more than 1 Million");
+            }
+        });
         this.on('boost',async req =>{
             try {
                 const ID = req.params[0];

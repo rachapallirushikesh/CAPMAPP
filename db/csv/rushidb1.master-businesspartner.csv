@@ -1,2 +1,11 @@
 node_key,bp_role,email_address,phone_number,fax_number,web_address,address_guid_node_key,bp_id,company_name
-businesspartner-18677721,21,email_address-18677721,hone_number-18677721,fax_number-18677721,web_address-18677721,address-13983890,bp_id-18677721,company_name-18677721
+BP01A1X9Q,BP,bp01@corp.com,9000000001,040100001,https://bp01.com,ADDR01X9,BP001,Alpha Tech
+BP02B2Y8W,CU,bp02@corp.com,9000000002,040100002,https://bp02.com,ADDR02Y8,BP002,Beta Solutions
+BP03C3Z7E,VE,bp03@corp.com,9000000003,040100003,https://bp03.com,ADDR03Z7,BP003,Gamma Systems
+BP04D4K6R,BP,bp04@corp.com,9000000004,040100004,https://bp04.com,ADDR04K6,BP004,Delta Soft
+BP05E5M5T,CU,bp05@corp.com,9000000005,040100005,https://bp05.com,ADDR05M5,BP005,Epsilon Pvt Ltd
+BP06F6N4Y,VE,bp06@corp.com,9000000006,040100006,https://bp06.com,ADDR06N4,BP006,Zeta Infotech
+BP07G7P3U,BP,bp07@corp.com,9000000007,040100007,https://bp07.com,ADDR07P3,BP007,Eta Global
+BP08H8Q2I,CU,bp08@corp.com,9000000008,040100008,https://bp08.com,ADDR08Q2,BP008,Theta Corp
+BP09I9R1O,VE,bp09@corp.com,9000000009,040100009,https://bp09.com,ADDR09R1,BP009,Iota Industries
+BP10J0S8L,BP,bp10@corp.com,9000000010,040100010,https://bp10.com,ADDR10S8,BP010,Kappa Enterprises

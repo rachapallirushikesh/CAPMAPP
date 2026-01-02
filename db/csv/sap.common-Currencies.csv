@@ -1,2 +1,11 @@
 code,symbol,minorUnit,name,descr
-597,74597,40,name-1774597,descr-1774597
+INR,₹,2,Indian Rupee,Currency of India
+USD,$,2,US Dollar,Currency of United States
+EUR,€,2,Euro,Currency of Eurozone
+GBP,£,2,British Pound,Currency of United Kingdom
+JPY,¥,0,Japanese Yen,Currency of Japan
+AUD,A$,2,Australian Dollar,Currency of Australia
+CAD,C$,2,Canadian Dollar,Currency of Canada
+CHF,CHF,2,Swiss Franc,Currency of Switzerland
+CNY,¥,2,Chinese Yuan,Currency of China
+SGD,S$,2,Singapore Dollar,Currency of Singapore
